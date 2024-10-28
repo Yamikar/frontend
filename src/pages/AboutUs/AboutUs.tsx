@@ -72,16 +72,16 @@ const AboutUs = () => {
     <div className="flex flex-col h-screen items-center">
       <Header title="SOS Rio Grande do Sul" startAdornment={<BurgerMenu />} />
       <div className="flex flex-col gap-4 p-4 max-w-4xl pb-8 w-full">
-        <h2 className="text-4xl pt-4 font-semibold !text-zinc-900">
+        <h2 className="text-5xl pt-4 font-semibold !text-zinc-900">
           Sobre nós
         </h2>
         <h4 className="text-lg text-muted-foreground font-medium">
           Conheça a história do projeto SOS RS
         </h4>
-        <h3 className="text-2xl font-medium text-muted-foreground mt-8">
+        <h3 className="text-3xl font-medium text-muted-foreground mt-7">
           Como tudo começou
         </h3>
-        <p className="text-justify text-md md:text-lg font-medium [&>a]:text-blue-500 [&>a]:hover:text-blue-600 [&>a]:active:text-blue-700">
+        <p className="text-justify text-md md:text-lg font-medium [&>a]:text-blue-500 [&>a]:hover:text-blue-700 [&>a]:active:text-blue-800">
           Iniciado no domingo (04/05) e concluído na segunda (05/05), após 18
           horas seguidas de desenvolvimento, nosso webapp <b>SOS RS 🛟</b>,
           idealizado e desenvolvido por{' '}
@@ -111,7 +111,7 @@ const AboutUs = () => {
           nosso projeto alcançou <b>600 estrelas no GitHub</b> e foi{' '}
           <b>forkeado mais de 350 vezes!</b>
         </p>
-        <h3 className="text-2xl font-medium text-muted-foreground mt-8">
+        <h3 className="text-3xl font-medium text-muted-foreground mt-8 ">
           Nossos parceiros
         </h3>
         <p className="text-justify font-medium text-md md:text-lg">

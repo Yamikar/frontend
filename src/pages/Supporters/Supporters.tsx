@@ -12,7 +12,7 @@ const Supporters = () => {
     <div className="flex flex-col h-screen items-center bg-gray-50 overflow-auto">
       <Header title="SOS Rio Grande do Sul" startAdornment={<BurgerMenu />} />
       <div className="flex flex-col gap-4 p-4 max-w-5xl pb-8 w-full">
-        <h2 className="text-4xl pt-4 font-semibold !text-zinc-900">
+        <h2 className="text-5xl pt-4 font-semibold !text-zinc-900 ">
           Apoiadores do projeto
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 w-full gap-4 md:gap-8 mt-8">
