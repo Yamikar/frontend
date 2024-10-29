@@ -19,7 +19,7 @@ Thank you for your interest and support. Together, we can make a significant dif
 3. Vite: A build tool with a development server.
 4. shadcn/ui: Collection of reusable components, based on Tailwind.
 -------------------------------------------------------------------------
-### License
+## License
 This code is licensed using the
 MIT license.
 ----------------------------------------------------------------------
