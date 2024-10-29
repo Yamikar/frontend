@@ -72,19 +72,17 @@ const AboutUs = () => {
     <div className="flex flex-col h-screen items-center">
       <Header title="SOS Rio Grande do Sul" startAdornment={<BurgerMenu />} />
       <div className="flex flex-col gap-4 p-4 max-w-4xl pb-8 w-full">
-        <h2 className="text-5xl pt-4 font-semibold !text-zinc-900">
-          Sobre nós
-        </h2>
+        <h2 className="text-5xl pt-4 font-semibold !text-zinc-900">About us</h2>
         <h4 className="text-lg text-muted-foreground font-medium">
-          Conheça a história do projeto SOS RS
+          Learn about the history of the SOS RS project
         </h4>
         <h3 className="text-3xl font-medium text-muted-foreground mt-7">
-          Como tudo começou
+          How it all started
         </h3>
         <p className="text-justify text-md md:text-lg font-medium [&>a]:text-blue-500 [&>a]:hover:text-blue-700 [&>a]:active:text-blue-800">
-          Iniciado no domingo (04/05) e concluído na segunda (05/05), após 18
-          horas seguidas de desenvolvimento, nosso webapp <b>SOS RS 🛟</b>,
-          idealizado e desenvolvido por{' '}
+          Started on Sunday (04/05) and concluded on Monday (05/05), after 18
+          hours of development, our webapp <b>SOS RS 🛟</b>, conceived and
+          developed by{' '}
           {persons.slice(0, -1).map((p, idx) => (
             <Fragment key={idx}>
               <a className="hover:underline" href={p.link} target="_blank">
@@ -101,22 +99,23 @@ const AboutUs = () => {
           >
             {persons.at(-1)?.name}
           </a>
-          , atingiu resultados verdadeiramente inspiradores.
+          , achieved truly inspiring results.
         </p>
         <p className="text-justify font-medium text-md md:text-lg">
-          O SOS RS rapidamente ganhou destaque nos grupos de WhatsApp, graças ao
-          seu modelo colaborativo. Alcançamos rapidamente o nível de todas as
-          outras iniciativas de gestão de demanda combinadas e lançamos nossa
-          comunidade open source, recebendo uma enxurrada de contribuições:
-          nosso projeto alcançou <b>600 estrelas no GitHub</b> e foi{' '}
-          <b>forkeado mais de 350 vezes!</b>
+          SOS RS quickly gained prominence in WhatsApp groups thanks to its
+          collaborative model. We quickly reached the level of all other demand
+          management initiatives combined and launched our open source
+          community, receiving a flood of contributions: our project has
+          achieved <b>600 estrelas no GitHub</b> and it was{' '}
+          <b>forked over 350 times!</b>
         </p>
         <h3 className="text-3xl font-medium text-muted-foreground mt-8 ">
-          Nossos parceiros
+          Our partners
         </h3>
         <p className="text-justify font-medium text-md md:text-lg">
-          Formamos parcerias sólidas com mais de 1400 voluntários, fortalecendo
-          ainda mais nossa missão. Hoje, comemoramos números que falam por si.
+          We have formed solid partnerships with more than 1,400 volunteers,
+          strengthening our mission. Today, we are celebrating figures that
+          speak for themselves.
         </p>
         <div className="flex gap-2 flex-wrap mt-4">
           <AboutCardInfo
@@ -147,11 +146,12 @@ const AboutUs = () => {
             className="align-middle inline-block relative max-h-6 padding pb-0.5"
             size={18}
           />{' '}
-          apoia a gestão das demandas e necessidades dos abrigos do Rio Grande
-          do Sul com informações públicas, atualizadas, confiáveis e auditáveis.
+          supports the management of the demands and needs of Rio Grande do
+          Sul's shelters do Sul with public, up-to-date, reliable and auditable
+          information.
         </p>
         <h3 className="text-2xl font-medium text-muted-foreground mt-4">
-          Frentes atendidas
+          Fronts addressed
         </h3>
         <div className="flex flex-col gap-6">
           {frontItems.map((item, idx) => (
@@ -159,11 +159,11 @@ const AboutUs = () => {
           ))}
         </div>
         <p className="text-justify font-medium text-md md:text-lg mt-4">
-          O grupo de voluntários do SOS RS já soma mais de 2100 pessoas e cerca
-          de 126 mil horas de trabalho desde a criação da iniciativa.
+          SOS RS's group of volunteers now numbers more than 2100 people and
+          around 126,000 hours of work since the initiative was set up.
         </p>
         <h3 className="text-2xl font-medium text-muted-foreground mt-4">
-          Contribuidores da plataforma ({contributors.length})
+          Platform contributors ({contributors.length})
         </h3>
         <div className="flex flex-wrap gap-2">
           {loading ? (
@@ -184,8 +184,8 @@ const AboutUs = () => {
       </div>
       <div className="bg-black [&>p]:text-white p-8 w-full flex justify-center mt-4">
         <p className="text-justify text-md md:text-lg">
-          Agradecemos a todos que têm tornado este impacto possível! Vamos
-          continuar trabalhando juntos para fazer a diferença. Acesse:{' '}
+          We thank everyone who has made this impact possible! Let's go keep
+          working together to make a difference. Access:{' '}
           <a
             href="https://sos-rs.com"
             className="hover:underline text-blue-500 hover:text-blue-600 active:text-blue-700"
